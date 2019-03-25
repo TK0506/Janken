@@ -12,6 +12,7 @@
 		850B8D7E21FAA199002EF665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850B8D7C21FAA199002EF665 /* Main.storyboard */; };
 		850B8D8021FAA19A002EF665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850B8D7F21FAA19A002EF665 /* Assets.xcassets */; };
 		850B8D8321FAA19A002EF665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850B8D8121FAA19A002EF665 /* LaunchScreen.storyboard */; };
+		850B8D8B21FAB19C002EF665 /* ResultViewConttroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850B8D8A21FAB19C002EF665 /* ResultViewConttroller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		850B8D7F21FAA19A002EF665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		850B8D8221FAA19A002EF665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		850B8D8421FAA19A002EF665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		850B8D8A21FAB19C002EF665 /* ResultViewConttroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewConttroller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				850B8D7821FAA199002EF665 /* AppDelegate.swift */,
 				850B8D7A21FAA199002EF665 /* ViewController.swift */,
 				850B8D7C21FAA199002EF665 /* Main.storyboard */,
+				850B8D8A21FAB19C002EF665 /* ResultViewConttroller.swift */,
 				850B8D7F21FAA19A002EF665 /* Assets.xcassets */,
 				850B8D8121FAA19A002EF665 /* LaunchScreen.storyboard */,
 				850B8D8421FAA19A002EF665 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				850B8D7B21FAA199002EF665 /* ViewController.swift in Sources */,
 				850B8D7921FAA199002EF665 /* AppDelegate.swift in Sources */,
+				850B8D8B21FAB19C002EF665 /* ResultViewConttroller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +285,6 @@
 		850B8D8821FAA19A002EF665 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7Q586G57SU;
 				INFOPLIST_FILE = "JankenG's/Info.plist";
@@ -299,7 +302,6 @@
 		850B8D8921FAA19A002EF665 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7Q586G57SU;
 				INFOPLIST_FILE = "JankenG's/Info.plist";
